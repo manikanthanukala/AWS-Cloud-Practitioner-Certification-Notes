@@ -82,8 +82,11 @@ Compute Savings Plans: Most flexible, applies across instance families, regions,
 EC2 Instance Savings Plans: Higher discounts but limited to specific instance families within a region
 
 Payment options:
+
 All upfront (highest savings)
+
 Partial upfront
+
 No upfront
 
 **3. Reserved Instances**
