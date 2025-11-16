@@ -76,6 +76,7 @@ Short-term applications
 Testing and development
 
 **2. Savings Plans**
+
 Offers up to 72% savings compared to On-Demand pricing in exchange for committing to a specific hourly usage amount for one or three years CloudchiprAWS.
 Two types:
 Compute Savings Plans: Most flexible, applies across instance families, regions, and even other services like Lambda and Fargate
