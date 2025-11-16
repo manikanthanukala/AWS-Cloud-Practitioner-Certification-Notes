@@ -71,9 +71,9 @@ An *instance store* provides temporary block-level storage for your instance. 
 The most straightforward option with no long-term commitments AWS. You pay for compute capacity by the hour or second (minimum 60 seconds) with no upfront costs.
 
 Best for:
-Unpredictable workloads
-Short-term applications
-Testing and development
+*Unpredictable workloads*
+*Short-term applications*
+*Testing and development*
 
 - **2. Savings Plans**
 
