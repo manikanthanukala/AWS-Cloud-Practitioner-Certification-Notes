@@ -66,7 +66,7 @@ An *instance store* provides temporary block-level storage for your instance. 
 
 ## Amazon EC2 Pricing
 
-**1. On-Demand Instances**
+- **1. On-Demand Instances**
 
 The most straightforward option with no long-term commitments AWS. You pay for compute capacity by the hour or second (minimum 60 seconds) with no upfront costs.
 
@@ -75,7 +75,7 @@ Unpredictable workloads
 Short-term applications
 Testing and development
 
-**2. Savings Plans**
+- **2. Savings Plans**
 
 Offers up to 72% savings compared to On-Demand pricing in exchange for committing to a specific hourly usage amount for one or three years CloudchiprAWS.
 Two types:
@@ -86,11 +86,11 @@ Two types:
 
 Payment options:
 
-All upfront (highest savings)
+- All upfront (highest savings)
 
-Partial upfront
+- Partial upfront
 
-No upfront
+- No upfront
 
 **3. Reserved Instances**
 
@@ -98,8 +98,7 @@ Provides up to 72% discounts compared to On-Demand pricing with optional capacit
 Best for: Steady, predictable workloads running consistently over time
 4. Spot Instances
 The cheapest option, offering up to 90% savings off On-Demand prices by using spare EC2 capacity CloudZeroCloudchipr. However, AWS can reclaim these instances when needed, potentially interrupting your workload Cloudchipr.
-Best for:
-
+- Best for:
 Fault-tolerant applications
 Batch processing
 Machine learning training
