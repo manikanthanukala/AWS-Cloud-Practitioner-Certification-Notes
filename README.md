@@ -69,22 +69,19 @@ An *instance store* provides temporary block-level storage for your instance. 
 **1. On-Demand Instances**
 
 The most straightforward option with no long-term commitments AWS. You pay for compute capacity by the hour or second (minimum 60 seconds) with no upfront costs.
-Best for:
 
+Best for:
 Unpredictable workloads
 Short-term applications
 Testing and development
 
 **2. Savings Plans**
-
 Offers up to 72% savings compared to On-Demand pricing in exchange for committing to a specific hourly usage amount for one or three years CloudchiprAWS.
 Two types:
-
 Compute Savings Plans: Most flexible, applies across instance families, regions, and even other services like Lambda and Fargate
 EC2 Instance Savings Plans: Higher discounts but limited to specific instance families within a region
 
 Payment options:
-
 All upfront (highest savings)
 Partial upfront
 No upfront
