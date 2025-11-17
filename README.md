@@ -136,6 +136,15 @@ Best For:
 
 Examples: i3, i4i, d3, h1
 
+| Category              | Hint       | Example Workload     |
+| --------------------- | ---------- | -------------------- |
+| **General Purpose**   | Balanced   | Web + App Server     |
+| **Compute Optimized** | More CPU   | Gaming, HPC          |
+| **Memory Optimized**  | More RAM   | SAP, Redis           |
+| **Accelerated**       | GPU/AI     | ML, Video processing |
+| **Storage Optimized** | Fast disks | Big Data, NoSQL      |
+
+
 ## AWS EC2 Instance Store
 
 An *instance store* provides temporary block-level storage for your instance. This storage is located on disks that are physically attached to the host computer. Instance store is ideal for temporary storage of information that changes frequently, such as buffers, caches, scratch data, and other temporary content. It can also be used to store temporary data that you replicate across a fleet of instances, such as a load-balanced pool of web servers.
