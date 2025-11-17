@@ -418,7 +418,20 @@ Best For:
     - Used for scenarios where instances need to download patches, updates, etc., but should not be directly accessed from the internet.
     - Managed by AWS
 - **NAT Gateway vs NAT Instance**
-    ![Image4](./images/img4.png)
+  
+    **NAT Gateway is a fully managed, highly available solution for private instances to access the internet, while NAT Instance is a user-managed EC2 instance providing NAT functionality with more control but less reliability.**
+
+  | Feature             | NAT Gateway             | NAT Instance             |
+| ------------------- | ----------------------- | ------------------------ |
+| **Management**      | Fully managed by AWS    | User-managed EC2         |
+| **Performance**     | Very high, auto-scaling | Limited to instance size |
+| **Availability**    | Highly available in AZ  | Must configure yourself  |
+| **Maintenance**     | None                    | You patch & manage       |
+| **Cost**            | Higher                  | Lower                    |
+| **Security Groups** | Not supported           | Supported                |
+| **Custom Rules**    | Not possible            | Fully customizable       |
+| **Bandwidth**       | Up to 45 Gbps           | Limited by instance type |
+
 
     
 
