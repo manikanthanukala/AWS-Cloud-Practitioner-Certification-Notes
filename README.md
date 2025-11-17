@@ -152,127 +152,138 @@ An *instance store* provides temporary block-level storage for your instance. 
 
 ## Amazon EC2 Pricing
 
-1️⃣ On-Demand Instances
+1️⃣ **On-Demand Instances**
 
 💰 Pay per second or hour
+
 🕒 No commitment
 
 Best For:
 
-Applications with unpredictable workloads
+* Applications with unpredictable workloads
 
-Testing and development environments
+* Testing and development environments
 
-When you want full flexibility
+* When you want full flexibility
 
 Pros:
 ✔ No long-term contracts
+
 ✔ Easy to start/stop
 
 Cons:
 ❌ Most expensive option
 
 Example:
+
 Running an app server for a few hours during testing.
 
-2️⃣ Reserved Instances (RI)
+2️⃣ **Reserved Instances (RI)**
 
 💰 Up to 72% cheaper than on-demand
+
 📅 1-year or 3-year commitment
 
 Best For:
 
-Steady, predictable workloads
+* Steady, predictable workloads
 
-Databases, application servers
+* Databases, application servers
 
 Types of RIs:
 
-Standard RI → Maximum discount, but cannot change instance type
+* Standard RI → Maximum discount, but cannot change instance type
 
-Convertible RI → Lower discount, but can change instance type, OS, or tenancy
+* Convertible RI → Lower discount, but can change instance type, OS, or tenancy
 
 Pros:
+
 ✔ Big cost savings
+
 ✔ Capacity reservation (in specific AZ)
 
 Cons:
 ❌ Requires long-term commitment
 
-3️⃣ Savings Plans
+3️⃣ **Savings Plans**
 
 💰 Cheapest + Most Flexible
+
 ⏳ 1-year or 3-year commitment to spend a fixed hourly amount
 
 Types:
 
-Compute Savings Plan
+* Compute Savings Plan
 
-Can run any instance family, any region
+* Can run any instance family, any region
 
-Most flexible & highest discount
+* Most flexible & highest discount
 
-EC2 Instance Savings Plan
+* EC2 Instance Savings Plan
 
-Cheaper but restricted to instance family (e.g., m5)
+* Cheaper but restricted to instance family (e.g., m5)
 
 Best For:
 
-Organizations that want low cost + flexibility
+* Organizations that want low cost + flexibility
 
-4️⃣ Spot Instances
+4️⃣ **Spot Instances**
 
 💰 Up to 90% discount
+
 ⚠️ Can be interrupted with 2 minutes notice
 
 Best For:
 
-Fault-tolerant, flexible workloads
+* Fault-tolerant, flexible workloads
 
-Big data & analytics
+* Big data & analytics
 
-Training machine learning models
+* Training machine learning models
 
-Batch processing
+* Batch processing
 
 Pros:
+
 ✔ Extremely cheap
 
 Cons:
+
 ❌ Not reliable – can be stopped anytime
 
-5️⃣ Dedicated Hosts
+5️⃣** Dedicated Hosts**
 
 🏢 Physical server dedicated for your use
+
 💼 Helps with compliance / licensing
 
 Best For:
 
-Enterprises with strict licensing (Windows, Oracle)
+* Enterprises with strict licensing (Windows, Oracle)
 
-Compliance-heavy workloads
+* Compliance-heavy workloads
 
-6️⃣ Dedicated Instances
+6️⃣** Dedicated Instances**
 
 💻 Instances run on your own physical hardware, but less strict than dedicated hosts.
 
 Best For:
 
-Compliance requirements
+* Compliance requirements
 
-Isolation needs
+* Isolation needs
 
-7️⃣ Capacity Reservations
+7️⃣** Capacity Reservations**
 
 🚦 Reserve capacity in an Availability Zone without long-term commitment
 
 Best For:
 
-Mission-critical applications
+* Mission-critical applications
 
-Disaster recovery (DR) environments
+* Disaster recovery (DR) environments
 
-🎯 Shortcut to Remember EC2 Pricing
+🎯 Remember EC2 Pricing
 Pricing Model	Key Point	Best Use Case
 On-Demand	Pay as you go	Unpredictable workloads
 Reserved Instances	1–3 year commit	Stable workloads
