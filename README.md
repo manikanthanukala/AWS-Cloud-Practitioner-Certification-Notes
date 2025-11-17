@@ -167,11 +167,13 @@ Best For:
 * When you want full flexibility
 
 Pros:
+
 ✔ No long-term contracts
 
 ✔ Easy to start/stop
 
 Cons:
+
 ❌ Most expensive option
 
 Example:
@@ -203,6 +205,7 @@ Pros:
 ✔ Capacity reservation (in specific AZ)
 
 Cons:
+
 ❌ Requires long-term commitment
 
 3️⃣ **Savings Plans**
@@ -284,14 +287,15 @@ Best For:
 * Disaster recovery (DR) environments
 
 🎯 Remember EC2 Pricing
-Pricing Model	Key Point	Best Use Case
-On-Demand	Pay as you go	Unpredictable workloads
-Reserved Instances	1–3 year commit	Stable workloads
-Savings Plans	Commit to spend	Flexible long-term savings
-Spot Instances	Cheapest, interruptible	Batch/ML workloads
-Dedicated Host	Your own physical server	Compliance & licensing
-Dedicated Instance	Hardware isolation	Security needs
-Capacity Reservations	Reserve capacity	DR, critical apps
+| Pricing Model             | Key Point                | Best Use Case              |
+| ------------------------- | ------------------------ | -------------------------- |
+| **On-Demand**             | Pay as you go            | Unpredictable workloads    |
+| **Reserved Instances**    | 1–3 year commit          | Stable workloads           |
+| **Savings Plans**         | Commit to spend          | Flexible long-term savings |
+| **Spot Instances**        | Cheapest, interruptible  | Batch/ML workloads         |
+| **Dedicated Host**        | Your own physical server | Compliance & licensing     |
+| **Dedicated Instance**    | Hardware isolation       | Security needs             |
+| **Capacity Reservations** | Reserve capacity         | DR, critical apps          |
 
 
 ## AWS Services
