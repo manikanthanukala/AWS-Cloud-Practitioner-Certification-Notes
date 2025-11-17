@@ -42,22 +42,94 @@
 
 ## Amazon EC2 Instance Types
 
-- **General Purpose instances**:
-    - Balanced computing, memory, and networking.
-    - Suitable for web servers, dev environments, and medium databases.
-- **Compute-optimized instances**:
-    - High vCPUs to memory ratio.
-    - Ideal for scientific modeling, batch processing, gaming server
-- **Memory-optimized instances**:
-    - Designed for large in-memory processing.
-    - Perfect for in-memory databases and real-time big data analytics.
-- **Accelerated computing instances**:
-    - Uses hardware accelerators like GPUs.
-    - Targeted at machine learning, video processing, high-performance computing.
-- **Storage optimized instances**:
-    - High sequential read/write access.
-    - Great for distributed file systems and data warehousing.
+- 1️⃣ General Purpose Instances (T, M families)
 
+🟦 Balanced CPU, memory & network
+🟦 Good all-round performance
+
+Best For:
+
+Web servers
+
+Application servers
+
+Development/testing environments
+
+Small/medium databases
+
+Examples: t3, t4g, m5, m6i
+
+2️⃣ Compute-Optimized Instances (C family)
+
+🟧 High CPU-to-memory ratio
+🟧 Designed for fast computation
+
+Best For:
+
+High-performance web servers
+
+Scientific modeling
+
+Gaming servers
+
+Batch processing
+
+Streaming engines
+
+Examples: c5, c6g, c7i
+
+3️⃣ Memory-Optimized Instances (R, X, Z families)
+
+🟩 High memory capacity for in-memory workloads
+🟩 Used when applications need to store large datasets in RAM
+
+Best For:
+
+In-memory databases (Redis, SAP HANA)
+
+Big data real-time analytics
+
+High-performance databases
+
+Caching servers
+
+Examples: r6g, x2idn, z1d
+
+4️⃣ Accelerated Computing Instances (P, G, Inf, Trn families)
+
+🟥 Use GPUs or specialized accelerators like Inferentia / Trainium
+🟥 Designed for massive parallel processing
+
+Best For:
+
+Machine Learning training
+
+ML inference
+
+Video rendering
+
+High-performance scientific computing (HPC)
+
+AI/Deep learning
+
+Examples: p4, g5, inf2, trn1
+
+5️⃣ Storage-Optimized Instances (I, D, H families)
+
+🟨 High sequential read/write throughput
+🟨 Large NVMe SSD storage with very low latency
+
+Best For:
+
+Distributed file systems
+
+Data warehousing
+
+NoSQL databases (Cassandra, MongoDB)
+
+Search engines (Elasticsearch)
+
+Examples: i3, i4i, d3, h1
 
 ## AWS EC2 Instance Store
 
