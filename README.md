@@ -42,7 +42,7 @@
 
 ## Amazon EC2 Instance Types
 
-1️⃣ General Purpose Instances (T, M families)
+1️⃣ **General Purpose Instances (T, M families)**
 
 🟦 Balanced CPU, memory & network
 
@@ -60,7 +60,7 @@ Best For:
 
 Examples: t3, t4g, m5, m6i
 
-2️⃣ Compute-Optimized Instances (C family)
+2️⃣ **Compute-Optimized Instances (C family)**
 
 🟧 High CPU-to-memory ratio
 
@@ -80,7 +80,7 @@ Best For:
 
 Examples: c5, c6g, c7i
 
-3️⃣ Memory-Optimized Instances (R, X, Z families)
+3️⃣ **Memory-Optimized Instances (R, X, Z families)**
 
 🟩 High memory capacity for in-memory workloads
 
@@ -98,7 +98,7 @@ Best For:
 
 Examples: r6g, x2idn, z1d
 
-4️⃣ Accelerated Computing Instances (P, G, Inf, Trn families)
+4️⃣ **Accelerated Computing Instances (P, G, Inf, Trn families)**
 
 🟥 Use GPUs or specialized accelerators like Inferentia / Trainium
 
@@ -118,7 +118,7 @@ Best For:
 
 Examples: p4, g5, inf2, trn1
 
-5️⃣ Storage-Optimized Instances (I, D, H families)
+5️⃣ **Storage-Optimized Instances (I, D, H families)**
 
 🟨 High sequential read/write throughput
 
