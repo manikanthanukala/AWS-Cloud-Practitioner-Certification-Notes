@@ -421,7 +421,7 @@ Best For:
   
     **NAT Gateway is a fully managed, highly available solution for private instances to access the internet, while NAT Instance is a user-managed EC2 instance providing NAT functionality with more control but less reliability.**
 
-  | Feature             | NAT Gateway             | NAT Instance             |
+| Feature             | NAT Gateway             | NAT Instance             |
 | ------------------- | ----------------------- | ------------------------ |
 | **Management**      | Fully managed by AWS    | User-managed EC2         |
 | **Performance**     | Very high, auto-scaling | Limited to instance size |
