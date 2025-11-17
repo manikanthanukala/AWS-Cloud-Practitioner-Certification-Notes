@@ -216,13 +216,13 @@ Cons:
 
 Types:
 
-* Compute Savings Plan
+** Compute Savings Plan **
 
 * Can run any instance family, any region
 
 * Most flexible & highest discount
 
-* EC2 Instance Savings Plan
+** EC2 Instance Savings Plan**
 
 * Cheaper but restricted to instance family (e.g., m5)
 
