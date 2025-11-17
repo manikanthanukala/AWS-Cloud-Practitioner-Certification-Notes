@@ -301,6 +301,7 @@ Best For:
 ## AWS Services
 
 - **1️⃣ AWS Management Console**
+  
 What it is:
 
 A web-based graphical user interface (GUI) to access and manage AWS services.
@@ -326,6 +327,7 @@ Best For:
 ✔ Learning and exploring AWS
 
 - **2️⃣ AWS CLI (Command Line Interface)**
+  
 What it is:
 
 A command-based tool to manage AWS services using text commands.
@@ -351,6 +353,7 @@ Best For:
 ✔ Server-side operations
 
 - **3️⃣ AWS SDK (Software Development Kit)**
+- 
 What it is:
 
 Programming libraries for languages like Python (boto3), Java, C#, JavaScript, Go, Ruby etc.
@@ -374,6 +377,15 @@ Best For:
 ✔ Building serverless apps
 
 ✔ Creating tools and custom integrations
+
+| Feature        | AWS Console           | AWS CLI            | AWS SDK              |
+| -------------- | --------------------- | ------------------ | -------------------- |
+| Interface      | GUI                   | Command-line       | Programming APIs     |
+| Best For       | Beginners, monitoring | Automation, DevOps | Developers           |
+| Learning Curve | Easy                  | Moderate           | Harder               |
+| Automation     | Limited               | High               | Very high            |
+| Access         | Browser               | Any OS terminal    | Code in applications |
+
 
 ## AWS Cloud9
 
