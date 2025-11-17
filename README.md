@@ -152,53 +152,135 @@ An *instance store* provides temporary block-level storage for your instance. 
 
 ## Amazon EC2 Pricing
 
-- **1. On-Demand Instances**
+1️⃣ On-Demand Instances
 
-The most straightforward option with no long-term commitments AWS. You pay for compute capacity by the hour or second (minimum 60 seconds) with no upfront costs.
+💰 Pay per second or hour
+🕒 No commitment
 
-Best for:
-*Unpredictable workloads*
-*Short-term applications*
-*Testing and development*
+Best For:
 
-- **2. Savings Plans**
+Applications with unpredictable workloads
 
-Offers up to 72% savings compared to On-Demand pricing in exchange for committing to a specific hourly usage amount for one or three years CloudchiprAWS.
-Two types:
+Testing and development environments
 
-***Compute Savings Plans***: Most flexible, applies across instance families, regions, and even other services like Lambda and Fargate
+When you want full flexibility
 
-***EC2 Instance Savings Plans:*** Higher discounts but limited to specific instance families within a region
+Pros:
+✔ No long-term contracts
+✔ Easy to start/stop
 
-Payment options:
+Cons:
+❌ Most expensive option
 
-- All upfront (highest savings)
+Example:
+Running an app server for a few hours during testing.
 
-- Partial upfront
+2️⃣ Reserved Instances (RI)
 
-- No upfront
+💰 Up to 72% cheaper than on-demand
+📅 1-year or 3-year commitment
 
-**3. Reserved Instances**
+Best For:
 
-Provides up to 72% discounts compared to On-Demand pricing with optional capacity reservation Cloudchipr.
-Best for: Steady, predictable workloads running consistently over time
-4. Spot Instances
-The cheapest option, offering up to 90% savings off On-Demand prices by using spare EC2 capacity CloudZeroCloudchipr. However, AWS can reclaim these instances when needed, potentially interrupting your workload Cloudchipr.
-- Best for:
-Fault-tolerant applications
+Steady, predictable workloads
+
+Databases, application servers
+
+Types of RIs:
+
+Standard RI → Maximum discount, but cannot change instance type
+
+Convertible RI → Lower discount, but can change instance type, OS, or tenancy
+
+Pros:
+✔ Big cost savings
+✔ Capacity reservation (in specific AZ)
+
+Cons:
+❌ Requires long-term commitment
+
+3️⃣ Savings Plans
+
+💰 Cheapest + Most Flexible
+⏳ 1-year or 3-year commitment to spend a fixed hourly amount
+
+Types:
+
+Compute Savings Plan
+
+Can run any instance family, any region
+
+Most flexible & highest discount
+
+EC2 Instance Savings Plan
+
+Cheaper but restricted to instance family (e.g., m5)
+
+Best For:
+
+Organizations that want low cost + flexibility
+
+4️⃣ Spot Instances
+
+💰 Up to 90% discount
+⚠️ Can be interrupted with 2 minutes notice
+
+Best For:
+
+Fault-tolerant, flexible workloads
+
+Big data & analytics
+
+Training machine learning models
+
 Batch processing
-Machine learning training
-Flexible start/end times
 
-### Dedicated host
+Pros:
+✔ Extremely cheap
 
-![Image3](./images/img3.png)
+Cons:
+❌ Not reliable – can be stopped anytime
 
-- Isolation and Compliance
-- Instance Placement Control
-- Instance Type Flexibility
-- Cost Predictability
-- Visibility and Reporting
+5️⃣ Dedicated Hosts
+
+🏢 Physical server dedicated for your use
+💼 Helps with compliance / licensing
+
+Best For:
+
+Enterprises with strict licensing (Windows, Oracle)
+
+Compliance-heavy workloads
+
+6️⃣ Dedicated Instances
+
+💻 Instances run on your own physical hardware, but less strict than dedicated hosts.
+
+Best For:
+
+Compliance requirements
+
+Isolation needs
+
+7️⃣ Capacity Reservations
+
+🚦 Reserve capacity in an Availability Zone without long-term commitment
+
+Best For:
+
+Mission-critical applications
+
+Disaster recovery (DR) environments
+
+🎯 Shortcut to Remember EC2 Pricing
+Pricing Model	Key Point	Best Use Case
+On-Demand	Pay as you go	Unpredictable workloads
+Reserved Instances	1–3 year commit	Stable workloads
+Savings Plans	Commit to spend	Flexible long-term savings
+Spot Instances	Cheapest, interruptible	Batch/ML workloads
+Dedicated Host	Your own physical server	Compliance & licensing
+Dedicated Instance	Hardware isolation	Security needs
+Capacity Reservations	Reserve capacity	DR, critical apps
 
 
 ## AWS Services
