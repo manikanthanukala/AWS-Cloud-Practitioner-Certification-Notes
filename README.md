@@ -42,92 +42,97 @@
 
 ## Amazon EC2 Instance Types
 
-- 1️⃣ General Purpose Instances (T, M families)
+1️⃣ General Purpose Instances (T, M families)
 
 🟦 Balanced CPU, memory & network
+
 🟦 Good all-round performance
 
 Best For:
 
-Web servers
+* Web servers
 
-Application servers
+* Application servers
 
-Development/testing environments
+* Development/testing environments
 
-Small/medium databases
+* Small/medium databases
 
 Examples: t3, t4g, m5, m6i
 
 2️⃣ Compute-Optimized Instances (C family)
 
 🟧 High CPU-to-memory ratio
+
 🟧 Designed for fast computation
 
 Best For:
 
-High-performance web servers
+* High-performance web servers
 
-Scientific modeling
+* Scientific modeling
 
-Gaming servers
+* Gaming servers
 
-Batch processing
+* Batch processing
 
-Streaming engines
+* Streaming engines
 
 Examples: c5, c6g, c7i
 
 3️⃣ Memory-Optimized Instances (R, X, Z families)
 
 🟩 High memory capacity for in-memory workloads
+
 🟩 Used when applications need to store large datasets in RAM
 
 Best For:
 
-In-memory databases (Redis, SAP HANA)
+* In-memory databases (Redis, SAP HANA)
 
-Big data real-time analytics
+* Big data real-time analytics
 
-High-performance databases
+* High-performance databases
 
-Caching servers
+* Caching servers
 
 Examples: r6g, x2idn, z1d
 
 4️⃣ Accelerated Computing Instances (P, G, Inf, Trn families)
 
 🟥 Use GPUs or specialized accelerators like Inferentia / Trainium
+
 🟥 Designed for massive parallel processing
 
 Best For:
 
-Machine Learning training
+* Machine Learning training
 
-ML inference
+* ML inference
 
-Video rendering
+* Video rendering
 
-High-performance scientific computing (HPC)
+* High-performance scientific computing (HPC)
 
-AI/Deep learning
+* AI/Deep learning
 
 Examples: p4, g5, inf2, trn1
 
 5️⃣ Storage-Optimized Instances (I, D, H families)
 
 🟨 High sequential read/write throughput
+
 🟨 Large NVMe SSD storage with very low latency
 
 Best For:
 
-Distributed file systems
+* Distributed file systems
 
-Data warehousing
+* Data warehousing
 
-NoSQL databases (Cassandra, MongoDB)
+* NoSQL databases (Cassandra, MongoDB)
 
-Search engines (Elasticsearch)
+* Search engines (Elasticsearch)
 
 Examples: i3, i4i, d3, h1
 
