@@ -742,11 +742,35 @@ Think of it as a cloud optimization advisor.
 
 ## AWS Billing Dashboard
 
-- Compare your current month-to-date balance with the previous month, and get a forecast of the next month based on current usage.
-- View month-to-date spending by service.
-- View Free Tier usage by service.
-- Access Cost Explorer and create budgets.
-- Purchase and manage Savings Plans.
+The AWS Billing Dashboard is the central place in AWS where you can:
+
+-✔ View your current month AWS charges
+-✔ Forecast upcoming costs
+-✔ Track service-wise usage
+-✔ Set budgets and cost alerts
+-✔ Manage payment methods
+-✔ Access bills, invoices, and cost reports
+
+It helps you monitor, analyze, and control your spending.
+
+-✔ Billing Dashboard is free
+
+AWS does not charge to use the dashboard.
+
+-✔ It helps with cost visibility, forecasting, and managing budgets.
+-✔ For detailed cost analytics → use Cost Explorer
+-✔ For alerts → use AWS Budgets
+-✔ For anomalies → use Cost Anomaly Detection
+-✔ For resource-level cost breakdown → use Cost & Usage Reports (CUR)
+
+
+| Service               | Purpose                                  |
+| --------------------- | ---------------------------------------- |
+| **Billing Dashboard** | Basic cost summary, forecast, invoices   |
+| **Cost Explorer**     | Graphical cost analysis & trends         |
+| **AWS Budgets**       | Alerts when cost/usage exceeds threshold |
+| **CUR**               | Most detailed billing data (CSV format)  |
+
 
 ## AWS **Consolidated Billing**
 
