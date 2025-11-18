@@ -661,15 +661,13 @@ IAM gives you the flexibility to configure access based on your company’s spec
 
 ## AWS WAF
 
-- Web Application Protection
-- Rule Creation
-- Rate Limiting
-- Managed Rules
-- Real-time Metric
-- Global Reach
-- Block IP Addresses
-- SQL Injection
-- Provides protection at Layer 7
+AWS WAF protects your web applications, APIs, and websites from common web attacks by filtering HTTP/HTTPS traffic before it reaches your backend.
+
+✔ Protects web apps
+
+✔ Works on Layer 7 (Application Layer)
+
+✔ Protects against OWASP Top 10 threats
 
 ## Layers
 
