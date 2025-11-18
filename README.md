@@ -676,10 +676,27 @@ AWS WAF protects your web applications, APIs, and websites from common web attac
 - **Layer 7 -** HTTP and HTTPS requests are part of the Application layer, which is layer 7.
 
 ## Customer Compliance Center
+he AWS Customer Compliance Center is an online portal that helps customers understand:
 
-- AWS answers to key compliance questions
-- An overview of AWS risk and compliance
-- An auditing security checklist
+✔ How AWS meets global compliance requirements
+
+(ISO, SOC, PCI, GDPR, HIPAA, etc.)
+
+✔ How customers can meet their own compliance responsibilities
+
+(Security controls, shared responsibility model, audits, documentation)
+
+✔ Regulations & frameworks applicable in different countries/regions
+
+It is primarily a learning and guidance resource, not a technical service.
+
+| Feature | Customer Compliance Center  | AWS Artifact                |
+| ------- | --------------------------- | --------------------------- |
+| Purpose | Learn about compliance      | Download compliance reports |
+| Content | Guides, whitepapers, videos | SOC, ISO, PCI documents     |
+| Use     | General knowledge           | Auditor documentation       |
+| Cost    | Free                        | Free                        |
+
 
 ## Amazon CloudWatch
 
