@@ -904,10 +904,9 @@ AWS Marketplace is a digital catalog that includes thousands of software listing
 
 ## AWS Cloud Adoption Framework (CAF)
 
-![Image11](./images/img11.png)
+The AWS Cloud Adoption Framework (CAF) is a guideline/framework that helps organizations plan, migrate, and modernize their workloads on AWS.
 
-![Image12](./images/img12.png)
-
+AWS CAF is divided into 6 perspectives, grouped into Business and Technical categories.
 
 1. **Business Perspective:**
      - Purpose: Understand how business value is created and determine how cloud adoption contributes to the organization's business goals.
@@ -936,6 +935,16 @@ AWS Marketplace is a digital catalog that includes thousands of software listing
      - Patch management
      - Availability and continuity management
      - Application management
+
+| Group         | Perspective | Focus Area                     |
+| ------------- | ----------- | ------------------------------ |
+| **Business**  | Business    | Strategy & value               |
+|               | People      | Skills & organization          |
+|               | Governance  | Compliance & financial control |
+| **Technical** | Platform    | Architecture & tech stack      |
+|               | Security    | IAM, data protection           |
+|               | Operations  | Monitoring & operations        |
+
 
 ## **6 strategies for migration**
 
